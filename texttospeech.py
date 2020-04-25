@@ -2,6 +2,7 @@ from newspaper import Article  # Extracting and parsing articles
 import nltk  # Work with human language data
 from gtts import gTTS  # text to speech conversion
 import os  # Interacting with operating system
+from io import BytesIO
 import ssl
 
 try:
